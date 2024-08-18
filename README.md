@@ -6,5 +6,11 @@ This project implements an email spam detection system using a Naive Bayes class
 * Model Training: A Naive Bayes classifier is trained on the processed data.
 * Prediction: The model can predict whether a new email is spam or not.
 * Accuracy Measurement: The model's accuracy is evaluated on a test set.
+## Usage
+** 1. Run the script:**
 ```bash
-pip install pandas scikit-learn seaborn matplotlib
+python emailspamdetector.py
+```
+** 2. Input the content of the email you want to classify when prompted.**
+** 3.The model will output whether the email is "spam" or "ham" (not spam).**
+
