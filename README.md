@@ -7,10 +7,20 @@ This project implements an email spam detection system using a Naive Bayes class
 * Prediction: The model can predict whether a new email is spam or not.
 * Accuracy Measurement: The model's accuracy is evaluated on a test set.
 ## Usage
-** 1. Run the script:**
+* Run the script:
 ```bash
 python emailspamdetector.py
 ```
-** 2. Input the content of the email you want to classify when prompted.**
-** 3.The model will output whether the email is "spam" or "ham" (not spam).**
+* Input the content of the email you want to classify when prompted.
+* The model will output whether the email is "spam" or "ham" (not spam).
+
+## Dataset
+The dataset used for training and testing the model is derived from publicly available data. It contains labeled emails with their corresponding classifications as either spam or ham.
+
+### Note: The dataset was obtained from Kaggle, and its accuracy and completeness are not guaranteed.
+
+## Results
+The model's performance is evaluated using accuracy and a confusion matrix. The accuracy score and confusion matrix are displayed after the model is tested.
+## License
+This project is for educational purposes and does not have a specific license. The dataset's original source should be credited if used in other projects.
 
